@@ -1,0 +1,2168 @@
+/* ************************************* tistory css figure 스타일 ************************************* */
+/* 이미지 첨부 */
+figure {
+    margin: 0 0 20px;
+    max-width: 100%;
+    clear: both;
+}
+figure figcaption {
+    font-size: 13px;
+    word-break: break-word;
+    padding-top: 10px;
+    min-height: 20px;
+    caption-side: bottom;
+    text-align: center;
+}
+
+iframe,
+figure img,
+figure iframe {
+    max-width: 100%;
+}
+
+figure img:not([width]),
+figure iframe:not([width]) {
+    width: 100%;
+}
+
+figure img {
+    display: inline-block;
+}
+
+span[data-lightbox] {
+    cursor: pointer;
+}
+
+/* 첨부: 이미지 */
+figure.imageblock {
+    display: table;
+    position: relative;
+}
+figure.imageblock.alignLeft {
+    text-align: left;
+}
+figure.imageblock.alignCenter {
+    margin: 0 auto 20px;
+    text-align: center;
+}
+figure.imageblock.alignRight {
+    text-align: right;
+    margin-left: auto;
+}
+figure.imageblock.floatLeft {
+    float: left;
+    margin-right: 20px;
+}
+figure.imageblock.floatRight {
+    float: right;
+    margin-left: 20px;
+}
+figure.imageblock.widthContent {
+    display: block;
+}
+figure.imageblock.widthContent img {
+    width: 100%;
+}
+
+figure.imageblock.floatLeft figcaption,
+figure.imageblock.floatRight figcaption {
+    text-align: left;
+}
+
+figure.imageblock img {
+    display: inline-block;
+    max-width: 100% !important;
+    margin: 0;
+    height: auto;
+}
+
+figure.imagegridblock {
+    position: relative;
+    margin: 20px 0;
+    background-color: transparent;
+}
+figure.imagegridblock .image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+figure.imagegridblock .image-container > span {
+    margin-right: 0 !important;
+    margin-top: 2px !important;
+}
+
+figure.imagegridblock img {
+    margin: 0;
+    height: inherit;
+}
+figure.imagegridblock span img {
+    width: 100%;
+}
+
+/* 첨부: 이미지 슬라이드 */
+/*figure.imageslideblock {
+	clear: both;
+	position: relative;
+	font-size: 0;
+	outline: 0 none !important;
+}
+figure.imageslideblock .btn {
+	display:none;
+	outline: none;
+}
+figure.imageslideblock.ready .btn {
+	display: inline-block;
+}
+figure.imageslideblock.ready .mark {
+	opacity: 1;
+}
+
+figure.imageslideblock div.image-container {
+	position:relative;
+	min-width: 480px;
+	max-width: 100%;
+	min-height: 300px;
+	max-height: 860px;
+	background-color:#000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow:hidden;
+	margin: 0 auto;
+}
+
+figure.imageslideblock div.image-container span.image-wrap {
+	display: none;
+}
+figure.imageslideblock div.image-container span.image-wrap.selected {
+	display: inline;
+}
+
+figure.imageslideblock div.image-container img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+figure.imageslideblock div.image-container .btn {
+	position:absolute;
+	border: 0;
+	background: transparent;
+	width: 60px;
+	height: 60px;
+	top: 50%;
+	margin-top:-20px;
+}
+figure.imageslideblock div.image-container .btn-prev {
+	left:0;
+}
+figure.imageslideblock div.image-container .btn-next {
+	right:0;
+}
+figure.imageslideblock div.image-container:hover .btn span {
+	opacity: 0.3;
+}
+figure.imageslideblock div.image-container .btn span {
+	background-image: url('https://t1.daumcdn.net/tistory_admin/static/manage/post-editor/img_editor_content.svg');
+	text-indent: -10000px;
+	overflow:hidden;
+	width: 40px;
+	height: 40px;
+	opacity: 0;
+	transition: opacity ease-in-out 0.2s;
+	display: inline-block;
+}
+figure.imageslideblock div.image-container .btn:hover span {
+	opacity: 1;
+}
+figure.imageslideblock div.image-container .btn .ico-prev {
+	background-position: -220px 0;
+}
+figure.imageslideblock div.image-container .btn .ico-next {
+	background-position: -260px 0;
+}
+
+figure.imageslideblock div.mark {
+	display: block;
+	height: 44px;
+	text-align: center;
+	opacity: 0;
+	transition: opacity ease-in-out 0.2s;
+}
+
+figure.imageslideblock div.mark span {
+	width: 30px;
+	height: 4px;
+	display: inline-block;
+	margin: 20px 1px;
+	background-color: #d6d6d6;
+	text-indent: -10000px;
+	overflow:hidden;
+	cursor:pointer;
+}
+
+figure.imageslideblock div.mark span:first-child {
+	background-color: #000;
+	margin-left: 0;
+}
+
+figure.imageslideblock div.mark span:last-child {
+	margin-right: 0;
+}
+
+figure.imageslideblock figcaption {
+	text-align: center;
+	color: #666;
+	font-size: 14px;
+}
+
+figure.imageslideblock.alignLeft {
+	text-align: left;
+}
+
+figure.imageslideblock.alignCenter {
+	margin: 0 auto 20px;
+	text-align: center;
+}
+
+figure.imageslideblock.alignRight {
+	text-align: right;
+	margin-left: auto;
+}
+
+@media (max-width: 600px) {
+	figure.imageslideblock div.image-container {
+		min-width: 100%;
+		width: 100%;
+		max-height: 100%;
+	}
+	figure.imageslideblock div.image-container .btn span {
+		opacity: 0.3;
+	}
+}*/
+/* ===================================== tistory css figure 스타일 END ===================================== */
+
+/* ************************************* 티스토리 figure 박스 추가 꾸미기 ************************************* */
+/* figure 링크 카드 추가 꾸미기 */
+/* https://codepen.io/3psy0n/pen/LYpajmX?editors=1100 */
+/* Cards */
+.postcard {
+    flex-wrap: wrap;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 7%);
+    /*border: solid 1px rgba(0, 0, 0, 0.1);*/
+    background-color: rgb(249 250 251);
+}
+.postcard:hover {
+    box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 0%) 0px 0px 0px 0px, rgb(0 0 0 / 10%) 0px 20px 25px -5px,
+        rgb(0 0 0 / 10%) 0px 8px 10px -6px;
+}
+.postcard .t-dark {
+    color: #18151f;
+}
+.postcard .postcard__title {
+    color: inherit;
+    font-size: 1.4rem;
+    padding-bottom: 10px;
+    max-width: 454px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-weight: bolder;
+}
+.postcard a {
+    color: inherit;
+}
+.postcard h1,
+.postcard .h1 {
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.postcard .small {
+    font-size: 80%;
+}
+
+.postcard .postcard__img {
+    max-height: 180px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 40% 50%;
+    position: relative;
+}
+.postcard .postcard__img_link {
+    display: contents;
+}
+.postcard .postcard__bar {
+    width: 50px;
+    height: 4px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #424242;
+    transition: width 0.2s ease;
+}
+.postcard .postcard__text {
+    padding: 2.5rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+}
+.postcard .postcard__preview-txt {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 13px;
+    font-weight: 300;
+    font-stretch: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    /* max-height: 42px; */
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    color: var(--h-color-blur);
+}
+.postcard .postcard__tagbox {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 14px;
+    margin: 20px 0 0 0;
+    padding: 0;
+    justify-content: center;
+}
+.postcard .postcard__tagbox .tag__item {
+    display: inline-block;
+    background: rgba(83, 83, 83, 0.4);
+    border-radius: 3px;
+    padding: 2.5px 10px;
+    margin: 0 5px 5px 0;
+    cursor: default;
+    user-select: none;
+    transition: background-color 0.3s;
+}
+.postcard .postcard__tagbox .tag__item:hover {
+    background: rgba(83, 83, 83, 0.8);
+}
+.postcard:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 1;
+    border-radius: 10px;
+}
+.postcard:hover .postcard__bar {
+    width: 100px;
+}
+
+.postcard__subtitle i:before {
+    color: var(--blog-color);
+    font-size: 10px;
+}
+
+@media screen and (max-width: 868px) {
+    .contents_style > blockquote.postcard {
+        margin: 20px 15px !important;
+    }
+}
+
+@media screen and (min-width: 869px) {
+    .postcard {
+        flex-wrap: inherit;
+        max-height: 214px;
+    }
+
+    .postcard .postcard__tagbox {
+        justify-content: start;
+    }
+    .postcard .postcard__img {
+        max-width: 259px;
+        max-height: 100%;
+        transition: transform 0.3s ease;
+    }
+    .postcard .postcard__text {
+        padding: 2.5rem 3rem;
+        width: 100%;
+    }
+    .postcard .media.postcard__text:before {
+        content: '';
+        position: absolute;
+        display: block;
+        background: #18151f;
+        top: -20%;
+        height: 130%;
+        width: 35px;
+    }
+    .postcard:hover .postcard__img {
+        transform: scale(1.1);
+    }
+
+    /*.postcard:nth-child(2n+1) {
+	flex-direction: row;
+}
+	.postcard:nth-child(2n+0) {
+	flex-direction: row-reverse;
+}
+	.postcard:nth-child(2n+1) .postcard__text::before {
+	left: -12px !important;
+	transform: rotate(4deg);
+}
+	.postcard:nth-child(2n+0) .postcard__text::before {
+	right: -12px !important;
+	transform: rotate(-4deg);
+}*/
+
+    .postcard {
+        flex-direction: row-reverse;
+    }
+    .postcard .postcard__text:before {
+        right: -12px !important;
+        transform: rotate(-4deg);
+    }
+}
+@media screen and (min-width: 1024px) {
+    .postcard__text {
+        padding: 2rem 3.5rem;
+    }
+    .postcard__text:before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: -20%;
+        height: 130%;
+        width: 55px;
+    }
+
+    .postcard .postcard__text:before {
+        background-color: rgb(249 250 251);
+    }
+}
+
+.postcard:hover .postcard__title {
+    color: var(--blog-color) !important;
+}
+
+/* 포스트 링크 카드 폰트 크기 덮어씌우기 */
+.postcard .postcard__title {
+    font-size: 1.25rem !important;
+    max-width: 100% !important;
+}
+
+/* COLORS */
+.postcard .postcard__tagbox .blue.play:hover {
+    background: var(--blog-color);
+}
+.blue .postcard__title:hover a {
+    color: var(--blog-color) !important;
+}
+.blue .postcard__bar {
+    background-color: var(--blog-color);
+}
+/* ===================================== 티스토리 figure 박스 추가 꾸미기 END ===================================== */
+
+/* ************************************* iframe 브라우저 스타일 width조정 ************************************* */
+
+@media screen and (min-width: 1200px) {
+    .Biframe {
+        width: 80vw !important;
+        margin-left: calc(((80vw - 100%) / 2) * -1) !important;
+    }
+}
+@media screen and (min-width: 1500px) {
+    .Biframe {
+        width: calc(80vw - 250px) !important;
+        margin-left: calc(((calc(80vw - 250px) - 100%) / 2) * -1) !important;
+    }
+}
+@media screen and (min-width: 1800px) {
+    .Biframe {
+        width: calc(74vw - 250px) !important;
+        margin-left: calc(((calc(74vw - 250px) - 100%) / 2) * -1) !important;
+    }
+}
+/* ===================================== iframe 브라우저 스타일 width조정 ===================================== */
+
+/* ************************************* 코드펜 꾸미기 ************************************* */
+.cp_embed_wrapper {
+    display: block;
+    margin: 20px 0;
+    padding: 40px 5px 10px;
+    background: #3d3d3e;
+    border-radius: 5px;
+    position: relative;
+}
+.cp_embed_wrapper:after {
+    content: '';
+    box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+    height: 12px;
+    left: 12px;
+    width: 12px;
+    top: 9px;
+    margin-top: 3px;
+    position: absolute;
+    background: #fc625d;
+    border-radius: 50%;
+    pointer-events: all;
+}
+/* ===================================== 코드펜 꾸미기 END ===================================== */
+
+/* ************************************* iframe 유튜브 비디오 점3개 수정 ************************************* */
+figure .window .header {
+    text-align: left;
+}
+/* ===================================== iframe 유튜브 비디오 점3개 수정 END ===================================== */
+
+/* ************************************* 안드로이드 안녕 ************************************* */
+.head52 {
+    position: relative;
+    height: 80px;
+    width: 160px;
+    background: #a4c639;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.head52 div:first-child,
+.head52 div:nth-child(2) {
+    position: absolute;
+    height: 7px;
+    width: 30px;
+    border-radius: 20px;
+    background: #a4c639;
+}
+.head52 div:first-child {
+    left: 15px;
+    transform: rotate(50deg);
+}
+.head52 div:nth-child(2) {
+    transform: rotate(-50deg);
+    left: 116px;
+}
+.head52 div:nth-child(3) {
+    position: relative;
+}
+.head52 div:nth-child(3) div {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background: #fff;
+    border-radius: 50%;
+    top: 35px;
+}
+.head52 div:nth-child(3) div:first-child {
+    left: 40px;
+}
+.head52 div:nth-child(3) div:nth-child(2) {
+    left: 107px;
+}
+
+.body52 {
+    position: relative;
+    width: 160px;
+    height: 130px;
+    background: #a4c639;
+    margin-top: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.body52 div {
+    position: absolute;
+    width: 35px;
+    height: 110px;
+    border-radius: 30px;
+    background: #a4c639;
+}
+.body52 div:first-child {
+    left: -32px;
+    transform-origin: top;
+    animation: arm-l 0.9s infinite;
+    animation-delay: 0.45s;
+}
+.body52 div:nth-child(2) {
+    left: 165px;
+}
+.body52 div:nth-child(3),
+.body52 div:nth-child(4) {
+    top: 75px;
+}
+.body52 div:nth-child(3) {
+    left: 32px;
+}
+.body52 div:nth-child(4) {
+    left: 96px;
+}
+
+.shadow52 {
+    margin-top: -72px;
+    z-index: -2;
+    height: 30px;
+    width: 160px;
+    background: #eee;
+    border-radius: 50%;
+    animation: shadow 0.9s infinite;
+    display: flex;
+    justify-content: space-between;
+}
+.shadow52 div {
+    height: 15px;
+    width: 40px;
+    background: #eee;
+    border-radius: 50%;
+}
+.shadow52 div:first-child {
+    margin: 8px -25px;
+}
+.shadow52 div:last-child {
+    margin: 8px -25px;
+}
+
+.footsteps52 {
+    display: flex;
+}
+.footsteps52 div {
+    height: 15px;
+    width: 30px;
+    background: gainsboro;
+    border-radius: 50%;
+    margin: 51px 20px;
+    z-index: -1;
+    animation: footsteps 0.9s infinite;
+    animation-delay: 0.45s;
+}
+.logo52 {
+    animation: bobble 0.9s infinite;
+}
+
+@keyframes shadow {
+    50% {
+        transform: scale(0.96);
+    }
+}
+@keyframes footsteps-l {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translate(6px, -5px);
+    }
+}
+@keyframes footsteps-r {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translate(-6px, -5px);
+    }
+}
+@keyframes bobble {
+    0% {
+        transform: translateY(-10px);
+    }
+    70% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+@keyframes arm-l {
+    0% {
+        transform: rotate(170deg);
+    }
+    60% {
+        transform: rotate(120deg);
+    }
+    100% {
+        transform: rotate(170deg);
+    }
+}
+/* ===================================== 안드로이드 안녕 END ===================================== */
+
+/* ************************************* 포스트잇 ************************************* */
+div.rgyPostIt {
+    position: relative;
+    display: inline-block;
+    padding: 13px 45px 10px 15px;
+    margin: 0px 0 10px 0;
+    border: 1px solid #f8f861;
+    border-left: 30px solid #dfdf1d;
+    border-bottom-right-radius: 60px 10px;
+    word-break: break-all;
+    background: #ff8;
+    background: -moz-linear-gradient(-45deg, #ff8 81%, #ff8 82%, #ff8 82%, #ffffc6 100%);
+    background: -webkit-gradient(
+        linear,
+        left top,
+        right bottom,
+        color-stop(81%, #ff8),
+        color-stop(82%, #ff8),
+        color-stop(82%, #ff8),
+        color-stop(100%, #ffffc6)
+    );
+    background: -webkit-linear-gradient(-45deg, #ff8 81%, #ff8 82%, #ff8 82%, #ffffc6 100%);
+    background: -o-linear-gradient(-45deg, #ff8 81%, #ff8 82%, #ff8 82%, #ffffc6 100%);
+    background: -ms-linear-gradient(-45deg, #ff8 81%, #ff8 82%, #ff8 82%, #ffffc6 100%);
+    background: linear-gradient(135deg, #ff8 81%, #ff8 82%, #ff8 82%, #ffffc6 100%);
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+
+    color: #7a7a1e;
+    font-size: 13px;
+}
+div.rgyPostIt::after {
+    content: ' ';
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 35px;
+    width: 150px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 2px 35px 5px rgb(0 0 0 / 40%);
+    -webkit-box-shadow: 2px 35px 5px rgb(0 0 0 / 40%);
+    transform: matrix(-1, -0.1, 0, 1, 0, 0);
+    -webkit-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+    -moz-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+    -ms-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+    -o-transform: matrix(-1, -0.1, 0, 1, 0, 0);
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+div.rgyPostIt:hover {
+    border-bottom-right-radius: 75px 30px;
+}
+/* ===================================== 포스트잇 END ===================================== */
+
+/* ************************************* 파일 첨부 박스 꾸미기 ************************************* */
+.article > figure.fileblock,
+.tt_article_useless_p_margin > figure.fileblock {
+    position: static !important;
+    margin: 20px 0 !important;
+    border: none !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+.article > figure.fileblock a,
+.tt_article_useless_p_margin > figure.fileblock a {
+    position: relative !important;
+    top: 0 !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    -webkit-transform: translateX(-50%) !important;
+    display: inline-block !important;
+    height: auto !important;
+    border-radius: 10px !important;
+    background-color: #555 !important;
+    transition: all 0.2s !important;
+}
+
+figure.fileblock a {
+    box-shadow: 0 0 0 -4px #ddd;
+}
+.article > figure.fileblock a:hover,
+.tt_article_useless_p_margin > figure.fileblock a:hover {
+    background-color: #f54 !important;
+}
+.article > figure.fileblock a div.image,
+.tt_article_useless_p_margin > figure.fileblock a div.image {
+    display: none !important;
+}
+figure.fileblock .image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    background-image: url(https://t1.daumcdn.net/tistory_admin/static/manage/post-editor/img_editor_content.svg);
+    background-position: 0 0;
+    margin: 21px 17px 20px 22px;
+}
+.article > figure.fileblock a div.desc,
+.tt_article_useless_p_margin > figure.fileblock a div.desc {
+    position: static !important;
+}
+figure.fileblock .desc {
+    position: absolute;
+    left: 70px;
+    right: 60px;
+    top: 0;
+    bottom: 0;
+}
+.article > figure.fileblock a div.desc div.filename,
+.tt_article_useless_p_margin > figure.fileblock a div.desc div.filename {
+    height: auto !important;
+    padding: 5px 10px !important;
+    margin: 0 !important;
+    color: #fff !important;
+    text-overflow: clip !important;
+    white-space: normal !important;
+    overflow: visible !important;
+}
+figure[data-ke-type='opengraph'] div.og-text p.og-host,
+figure.fileblock .filename {
+    font-size: 13.86px !important;
+}
+.article > figure.fileblock a div.desc div.size,
+.tt_article_useless_p_margin > figure.fileblock a div.desc div.size {
+    height: auto !important;
+    margin-top: -5px !important;
+    border-radius: 0 0 10px 10px !important;
+    font-size: 11px !important;
+    color: #fff !important;
+    text-align: center !important;
+    background-color: #555 !important;
+    filter: brightness(0.8) !important;
+    -webkit-filter: brightness(0.8) !important;
+    -moz-filter: brightness(0.8) !important;
+    -ms-filter: brightness(0.8) !important;
+    -o-filter: brightness(0.8) !important;
+    transition: all 0.2s !important;
+}
+figure.fileblock .size {
+    font-size: calc(0.67em * 1) !important;
+}
+.article > figure.fileblock a div.desc div.filename span.name,
+.tt_article_useless_p_margin > figure.fileblock a div.desc div.filename span.name {
+    display: inline-block !important;
+    max-width: 100% !important;
+    height: 100% !important;
+    padding: 5px 20px 7px !important;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    text-overflow: clip !important;
+    white-space: normal !important;
+    overflow: visible !important;
+}
+.article > figure.fileblock a div.desc div.filename span.name::before,
+.tt_article_useless_p_margin > figure.fileblock a div.desc div.filename span.name::before {
+    font-family: 'Font Awesome 5 Pro';
+    margin-right: 10px !important;
+    content: '\f019' !important;
+    font-size: 25px !important;
+    font-weight: 400 !important;
+    color: #fff !important;
+    vertical-align: middle !important;
+}
+.article > figure.fileblock a:hover div.desc div.size,
+.tt_article_useless_p_margin > figure.fileblock a:hover div.desc div.size {
+    background-color: #f54 !important;
+    filter: brightness(0.8) !important;
+    -webkit-filter: brightness(0.8) !important;
+    -moz-filter: brightness(0.8) !important;
+    -ms-filter: brightness(0.8) !important;
+    -o-filter: brightness(0.8) !important;
+}
+figure.fileblock a::after {
+    content: '';
+    background: none;
+}
+/* ===================================== 파일 첨부 박스 꾸미기 END ===================================== */
+
+/* ************************************* 리스트 꾸미기 ************************************* */
+.tt_article_useless_p_margin > ol li,
+.tt_article_useless_p_margin > ul li {
+    line-height: 1.9em;
+}
+
+/* 리스트 ol 꾸미기 */
+.tt_article_useless_p_margin > ol,
+.tt_article_useless_p_margin > ol ol {
+    list-style: none !important;
+    counter-reset: item;
+}
+
+.tt_article_useless_p_margin > ol {
+    padding-left: 35px;
+}
+
+.tt_article_useless_p_margin > ol > li,
+.tt_article_useless_p_margin > ol ol > li,
+.tt_article_useless_p_margin > ul ol > li {
+    counter-increment: item;
+    list-style: none inside;
+    overflow: hidden;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.tt_article_useless_p_margin > ol > li::before {
+    content: counter(item);
+    padding: 3px;
+    display: block;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    background: #ff6f00;
+    color: #fff;
+    text-align: center;
+    line-height: 11px;
+    font-size: 11px;
+    position: absolute;
+    left: 9px;
+    margin-top: 8px;
+    box-sizing: content-box;
+}
+
+.tt_article_useless_p_margin > ol ol > li::before,
+.tt_article_useless_p_margin > ul ol > li::before {
+    content: counter(item);
+    padding: 3px;
+    display: block;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+    color: #fff;
+    text-align: center;
+    line-height: 11px;
+    font-size: 11px;
+    position: absolute;
+    margin-top: 8px;
+    box-sizing: content-box;
+    background: darkorchid;
+    left: 46px;
+}
+.tt_article_useless_p_margin > ol ul > li::before {
+    left: 47px !important;
+}
+
+/* 리스트 ul 꾸미기 */
+.tt_article_useless_p_margin > ul {
+    padding-left: 35px;
+}
+.tt_article_useless_p_margin > ul,
+.tt_article_useless_p_margin > ul ul,
+.tt_article_useless_p_margin > ol ul {
+    list-style-type: none !important;
+}
+
+/*disc*/
+.tt_article_useless_p_margin > ul[data-ke-list-type='disc'] > li:before {
+    position: absolute;
+    left: 12px;
+    color: #f15b66;
+    font-size: 12px;
+    font-family: 'Font Awesome 5 Pro';
+    content: '\f044';
+}
+.tt_article_useless_p_margin > ul[data-ke-list-type='disc'] ul > li:before,
+.tt_article_useless_p_margin > ol ul[data-ke-list-type='disc'] > li:before {
+    position: absolute;
+    left: 49px;
+    color: #5865f5;
+    font-size: 12px;
+    font-family: 'Font Awesome 5 Pro';
+    content: '\f14d';
+}
+
+/*circle*/
+.tt_article_useless_p_margin > ul[data-ke-list-type='circle'] > li:before {
+    position: absolute;
+    left: 11px;
+    color: #009688;
+    font-size: 14px;
+    font-family: 'Font Awesome 5 Pro';
+    content: '\f05a';
+    margin-top: 1px;
+}
+.tt_article_useless_p_margin > ul[data-ke-list-type='circle'] ul > li:before,
+.tt_article_useless_p_margin > ol ul[data-ke-list-type='circle'] > li:before  {
+    position: absolute;
+    left: 49px;
+    color: #4caf50;
+    font-size: 14px;
+    font-family: 'Font Awesome 5 Pro';
+    content: '\f058';
+    margin-top: 1px;
+}
+/* ===================================== 리스트 꾸미기 END ===================================== */
+
+/* ************************************* 텍스트 블럭 꾸미기 (글자에 네모 박스 감싸진 디자인) ************************************* */
+.tt_article_useless_p_margin .textBlock {
+    /* text-decoration: none !important;
+   padding: 5px 7px 4px;
+   font-size: 80%;
+   color: currentColor;
+   background-color: var(--h-color-background);
+   border-radius: 4px;
+   font-weight: bold;
+   border: 1px solid currentColor;
+   border-bottom-width: 2px;
+   box-shadow: inset 1px -1px 1px var(--h-color-background-level-2),
+      inset -1px 1px 1px var(--h-color-background-level-2); */
+
+    margin: 0 2px;
+    color: #e96900;
+    padding: 2px 5px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    font-family: 'D2Coding';
+    background-color: #f8f8f8;
+    position: relative;
+    top: -1px;
+    border: #f0f0f0 1px solid;
+    /*color: indianred !important;*/
+    color: dimgray !important;
+    /* color: steelblue !important; */
+    /* color: rebeccapurple !important; */
+    /* color: midnightblue !important;*/
+}
+/* ===================================== 텍스트 블럭 꾸미기 END (글자에 네모 박스 감싸진 디자인) ===================================== */
+
+/* ************************************* blockquote 인용문 꾸미기 ************************************* */
+blockquote,
+blockquote p {
+    color: inherit;
+}
+
+/* 따옴표 블록코트 스타일1 커스텀 */
+.quote1 {
+    background-color: #f9f9ff;
+    padding: 20px 50px 15px 50px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.quote1 p {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    color: #84304c;
+}
+.quote1 svg {
+    font-size: 42px;
+    color: #f67280;
+    margin-bottom: 2px;
+}
+
+/* blockquote 블록토크 꾸미기 */
+.admonition {
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 1%), 1px 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px 0px rgb(0 0 0 / 3%);
+    position: relative;
+
+    padding: 0 1.2rem !important;
+    border-left: 5px solid #448aff;
+    border-radius: 0.2rem !important;
+    font-size: 1rem !important;
+    overflow: auto;
+
+    overflow: hidden;
+}
+.admonition.info {
+    border-left-color: #00b8d4;
+    background-color: rgb(0 184 212 / 2%);
+}
+.admonition.warning {
+    border-left-color: #ff9100;
+    background-color: rgb(255 145 0 / 2%);
+}
+
+.admonition > .admonition-title {
+    margin: 0 -1.2rem !important;
+    padding: 8px 12px 8px 40px !important;
+    border-bottom: 0.1rem solid rgba(68, 138, 255, 0.1) !important;
+    font-size: 1rem !important;
+    font-weight: 700;
+}
+.admonition.info > .admonition-title {
+    background-color: rgba(0, 184, 212, 0.1);
+    color: #00b8d4 !important;
+}
+.admonition.warning > .admonition-title {
+    background-color: rgba(255, 145, 0, 0.1);
+    color: #ff9100 !important;
+}
+
+.admonition.info > .admonition-title::before {
+    position: absolute;
+    left: 14px;
+    font-size: 16px;
+    color: #00b8d4;
+    content: '\f05a';
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 700;
+}
+.admonition.warning > .admonition-title::before {
+    position: absolute;
+    left: 17px;
+    font-size: 16px;
+    color: #ff9100;
+    content: '\f0eb';
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 700;
+}
+
+.admonition p {
+    margin: 1em 0.25rem !important;
+    line-height: 1.8 !important;
+}
+
+.admonition.info p {
+    color: #505e61;
+}
+.admonition.warning p {
+    color: #645c52;
+}
+
+/*.admonition p:not(.admonition-title) {*/
+/*   margin-bottom: 1.2rem !important;*/
+/*}*/
+
+.admonition:after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    /* animation: ShineAnim 10s ease infinite;
+   animation-delay: 2s; */
+}
+/* @keyframes ShineAnim {
+   0% {
+      left: -100%;
+   }
+   10% {
+      left: 100%;
+   }
+   100% {
+      left: 100%;
+   }
+} */
+/* ===================================== blockquote 인용문 꾸미기 END ===================================== */
+
+/* ************************************* 테이블 꾸미기 ************************************* */
+/* 테이블 기본값 복원 */
+.contents_style table:not([data-ke-style]),
+.contents_style table:not([data-ke-style]) td {
+    border: 1px solid var(--h-color-blurriest) !important;
+}
+
+/*  테이블 색깔 복구  */
+.contents_style table[data-ke-style='style4'] tr:first-child td,
+.contents_style table[data-ke-style='style8'] tr:first-child td {
+    background-color: #f5f5f5;
+    border-right: 1px solid #fff !important;
+}
+.contents_style table[data-ke-style='style9'] tr:first-child td {
+    border-bottom: 1px solid #6ed3d8 !important;
+    background-color: rgb(110 211 216 / 20%);
+    border-right: 1px solid #fff !important;
+}
+.contents_style table[data-ke-style='style10'] tr:first-child td {
+    border-bottom: 1px solid #008300 !important;
+    background-color: rgb(0 131 0 / 15%);
+    border-right: 1px solid #fff !important;
+}
+.contents_style table[data-ke-style='style11'] tr:first-child td {
+    border-bottom: 1px solid #6ed3d8 !important;
+    background-color: rgb(110 211 216 / 20%);
+    border-right: 1px solid #fff !important;
+}
+
+.contents_style table {
+    border: none;
+    border-bottom: 1px solid var(--h-color-blurriest);
+    border-top: 1px solid var(--h-color-blurriest);
+}
+
+.contents_style table td,
+.contents_style table th {
+    border: none;
+    border-bottom: 1px solid var(--h-color-blurriest);
+    font-size: 0.95rem;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    color: var(--h-color);
+}
+
+/* 테이블 12,13,14,15 */
+.contents_style table[data-ke-style='style12'] tr:nth-child(odd) td,
+.contents_style table[data-ke-style='style13'] tr:nth-child(odd) td,
+.contents_style table[data-ke-style='style14'] tr:nth-child(odd) td,
+.contents_style table[data-ke-style='style15'] tr:nth-child(odd) td {
+    background-color: inherit;
+}
+.contents_style table[data-ke-style='style12'] table,
+.contents_style table[data-ke-style='style13'] table,
+.contents_style table[data-ke-style='style14'] table,
+.contents_style table[data-ke-style='style15'] table {
+    border-collapse: separate;
+    border-spacing: 0;
+    width: 100%;
+}
+.contents_style table[data-ke-style='style12'] td,
+.contents_style table[data-ke-style='style13'] td,
+.contents_style table[data-ke-style='style14'] td,
+.contents_style table[data-ke-style='style15'] td {
+    border-right: 1px solid #c6c9cc;
+    border-bottom: 1px solid #c6c9cc;
+}
+.contents_style table[data-ke-style='style12'] td:first-child,
+.contents_style table[data-ke-style='style13'] td:first-child,
+.contents_style table[data-ke-style='style14'] td:first-child,
+.contents_style table[data-ke-style='style15'] td:first-child {
+    border-left: 1px solid #c6c9cc;
+}
+
+.contents_style table[data-ke-style='style12'] tr td:first-child {
+    background-color: rgb(46 53 82 / 10%) !important;
+}
+
+.contents_style table[data-ke-style='style13'] tr td:first-child {
+    background-color: rgb(40 171 255 / 6%) !important;
+}
+
+.contents_style table[data-ke-style='style14'] tr td:first-child {
+    background-color: rgb(55 168 120 / 10%) !important;
+}
+
+.contents_style table[data-ke-style='style15'] tr td:first-child {
+    background-color: rgb(39 128 212 / 10%) !important;
+}
+
+.contents_style table[data-ke-style='style12'] tr:first-child td {
+    background: #42444e !important;
+    color: #fff;
+}
+.contents_style table[data-ke-style='style13'] tr:first-child td {
+    background: #26adb4 !important;
+    color: #fff;
+}
+.contents_style table[data-ke-style='style14'] tr:first-child td {
+    background: #37a878 !important;
+    color: #fff;
+}
+.contents_style table[data-ke-style='style15'] tr:first-child td {
+    background: #2780d4 !important;
+    color: #fff;
+}
+/* ===================================== 테이블 꾸미기 꾸미기 END ===================================== */
+
+/* ************************************* 이전글/다음글 꾸미기 꾸미기 ************************************* */
+.post-switch {
+    margin: 15px 0 5px 0;
+}
+
+.post-switch-item {
+    height: 100px;
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 0 1px 7px rgb(0 0 0 / 66%);
+    transition: 0.2s linear;
+}
+
+.post-switch-item-content {
+    position: relative;
+    z-index: 100;
+    color: #fff;
+    width: 100%;
+}
+
+.post-switch-item:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(36, 36, 36, 0.65);
+    border-radius: 8px;
+}
+
+.post-switch-item-left {
+    width: 25%;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.post-switch-item-right {
+    padding-left: 22%;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+
+.post-switch-next .post-switch-item-right {
+    padding-left: 30px;
+    margin-right: 0;
+    padding-right: 22%;
+    text-align: right;
+}
+
+.post-switch-next .post-switch-item-left {
+    right: 0;
+    top: 0;
+}
+
+.post-switch-item i {
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s all ease-in-out;
+}
+
+.post-categories-container {
+    display: block;
+    width: 100%;
+    margin-bottom: 2px;
+}
+
+.post-switch-item .post-categories-container {
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.post-switch-item-right p {
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 110%;
+    margin-top: 0;
+}
+
+.sh-post-categories-style1 .post-categories {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.post-switch-item-right .post-categories {
+    padding: 0;
+    background-color: transparent;
+}
+.post-switch-item .post-categories {
+    margin-bottom: 0;
+}
+
+.post-switch-item-right p a,
+.post-switch-item-right p span {
+    color: #fff;
+    line-height: 1.5rem;
+}
+
+.post-categories,
+.post-categories {
+    font-size: 0.9rem;
+    color: #d79c6a;
+}
+
+.sh-post-categories-style1 .post-categories {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.post-switch-item.post-switch-next i {
+    animation-duration: 0.85s;
+    animation-name: arrowPost_next;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+.post-switch-item i {
+    animation-duration: 0.85s;
+    animation-name: arrowPost_previous;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes arrowPost_next {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(8px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+@keyframes arrowPost_previous {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(-8px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+.post-switch-item-content p > a:hover {
+    color: rgb(219 128 99);
+}
+
+.switch-title {
+    filter: drop-shadow(2px 3px 1px black);
+    -webkit-text-stroke: 1px #fafafa99;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+.post-switch-item:hover {
+    transform: scale(1.02);
+}
+
+.post-switch-item:hover .post-switch-item-thumnail {
+    transform: scale(1.07);
+}
+
+.post-switch-item:hover .switch-title {
+    color: #fff;
+    -webkit-text-stroke: 1px #fff;
+}
+/* ===================================== 이전글/다음글 꾸미기 꾸미기 END ===================================== */
+
+/* ************************************* figure 링크 박스 커스텀 꾸미기 ************************************* */
+.blog-post-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    font-size: 10px;
+}
+.blog-post-body *,
+.blog-post-body *::before,
+.blog-post-body *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blog-post {
+    width: 100%;
+    max-width: 98em;
+    padding: 5em;
+    background-color: #fff;
+    box-shadow: 0 1.4em 8em rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 0.8em;
+}
+
+.blog-post_img {
+    min-width: 35em;
+    max-width: 35em;
+    height: 30em;
+    transform: translateX(-8em);
+    position: relative;
+}
+
+.blog-post_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 0.8em;
+}
+
+/*.blog-post_img::before {
+content: '';
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background: linear-gradient(to right, rgba(79, 172, 254, 0.8),
+rgba(0, 242, 254, 0.8));
+box-shadow: 0.5em 0.5em 3em 1px rgba(0, 0, 0, 0.05);
+border-radius: 0.8em;
+}*/
+
+.blog-post_date span {
+    display: block;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.6em;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.blog-post_title {
+    font-size: 2.5em;
+    margin: 15px 0 20px;
+    text-transform: uppercase;
+    color: #4facfe;
+    font-weight: 800;
+}
+
+.blog-post_text {
+    margin-bottom: 30px;
+    font-size: 1.4em;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.blog-post_cta {
+    display: inline-block;
+    padding: 1.5em 3em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #fff;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    border-radius: 0.8em;
+}
+
+.blog-post_cta:hover {
+    background-image: linear-gradient(to right, #00f2fe 0%, #4facfe 100%);
+    color: #fff;
+}
+
+@media screen and (max-width: 1068px) {
+    .blog-post {
+        max-width: 80em;
+    }
+
+    .blog-post_img {
+        min-width: 30em;
+        max-width: 30em;
+    }
+}
+
+@media screen and (max-width: 868px) {
+    .blog-post {
+        max-width: 70em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .blog-post {
+        padding: 2.5em;
+        flex-direction: column;
+    }
+
+    .blog-post_img {
+        min-width: 100%;
+        max-width: 100%;
+        transform: translate(0, -8em);
+    }
+}
+/* ===================================== figure 링크 박스 커스텀 꾸미기 END ===================================== */
+
+/* ************************************* 포스팅 게시글 하단 공감 등 버튼 ************************************* */
+.permalink .container_postbtn {
+    padding: 0;
+}
+
+.permalink .container_postbtn button {
+    margin: 0;
+    margin-right: 7px;
+}
+
+.permalink .container_postbtn .postbtn_like {
+    border: none;
+    padding: 0 !important;
+}
+
+.permalink .container_postbtn .postbtn_like .wrap_btn {
+    display: inline-block;
+    border: none;
+}
+
+.permalink .container_postbtn .postbtn_like .wrap_btn:not([id^='reaction-']) button {
+    color: var(--h-button-color) !important;
+    background: none;
+    display: inline-block !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    text-align: center;
+    border-radius: 5px;
+    width: 35px;
+    height: 35px;
+    line-height: 1.5 !important;
+    background-color: var(--h-button-background);
+    color: var(--h-button-color);
+    font-weight: 500;
+    font-size: 0 !important;
+    padding: 0;
+}
+
+.permalink .container_postbtn .postbtn_like .wrap_btn:not([id^='reaction-']) button:hover {
+    border-color: var(--h-button-color-hover-background);
+    background-color: var(--h-button-color-hover-background);
+    color: var(--h-button-color-hover) !important;
+}
+
+.permalink .container_postbtn .postbtn_like .wrap_btn button::before,
+.permalink .container_postbtn .postbtn_like .wrap_btn button[data-entry-id]::before,
+.permalink .container_postbtn .postbtn_like .wrap_btn .uoc-count::before {
+    font-weight: 600;
+    font-family: 'Font Awesome 5 Pro';
+    content: '';
+    font-size: 13px !important;
+}
+
+.permalink .container_postbtn .postbtn_like .wrap_btn.wrap_btn_share .btn_post > *,
+.permalink .container_postbtn .postbtn_like .wrap_btn.wrap_btn_etc .btn_post > * {
+    display: none;
+}
+
+.permalink .container_postbtn .postbtn_like .wrap_btn[id^='reaction-'] button {
+    background: none;
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    text-align: center;
+    border-radius: 5px;
+    width: 60px;
+    height: 35px;
+    line-height: 1.5 !important;
+    background-color: #e31b23;
+    color: var(--h-button-color-hover);
+    font-weight: 500;
+    font-size: 0 !important;
+    padding: 0;
+}
+html[data-theme='dark'] .permalink .container_postbtn .postbtn_like .wrap_btn[id^='reaction-'] button {
+    background-color: #c51104;
+}
+
+.permalink .container_postbtn .postbtn_like .wrap_btn[id^='reaction-'] button:hover {
+    border-color: var(--h-button-color-hover-background);
+    background-color: var(--h-button-color-hover-background);
+    color: var(--h-button-color-hover) !important;
+}
+
+.permalink .container_postbtn .postbtn_like .wrap_btn[id^='reaction-'] button > .uoc-icon > .ico_like {
+    display: none;
+}
+
+.permalink .container_postbtn .postbtn_like .wrap_btn[id^='reaction-'] button .uoc-count {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--h-button-color-hover) !important;
+    line-height: unset !important;
+}
+
+.permalink .container_postbtn .postbtn_like .wrap_btn[id^='reaction-'] button .uoc-count::before {
+    margin-right: 5px;
+    content: '\f004';
+}
+
+.permalink .container_postbtn .postbtn_like .wrap_btn.wrap_btn_share .btn_share::before {
+    content: '\f1e0';
+}
+
+.permalink .container_postbtn .postbtn_like .wrap_btn button[data-entry-id]::before {
+    content: '\f200';
+}
+
+.permalink .container_postbtn .postbtn_like .wrap_btn button[data-entry-id] .ico_statistics {
+    display: none;
+}
+
+/* ... 버튼 */
+/*.wrap_btn.wrap_btn_etc {
+display: none !important;
+}*/
+.permalink .container_postbtn .postbtn_like .wrap_btn.wrap_btn_etc .btn_etc1::before {
+    content: '\f0ad';
+    font-weight: 600;
+    font-family: 'Font Awesome 5 Pro';
+    font-size: 13px !important;
+}
+.permalink .container_postbtn .postbtn_like .wrap_btn.wrap_btn_etc .btn_etc2::before {
+    content: '\f071';
+    font-weight: 600;
+    font-family: 'Font Awesome 5 Pro';
+    font-size: 13px !important;
+}
+
+/* 게시글 하단 조그만 구독 버튼 */
+.permalink .container_postbtn .btn_subscription {
+    display: none !important;
+}
+/* ===================================== 포스팅 게시글 하단 공감 등 버튼 END ===================================== */
+
+/* ************************************* 태그 디자인 부분 ************************************* */
+.tags-divider {
+    margin: 10px 0;
+}
+
+.permalink .tags {
+    text-align: left;
+}
+
+.permalink .tags a {
+    margin-right: 10px;
+    background-color: var(--h-color-background-level-2);
+    color: var(--h-color-blur);
+    display: inline-block;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 14px;
+    transition-duration: 0.2s;
+}
+
+.permalink .tags a::before {
+    font-weight: 600;
+    margin-right: 6px;
+    font-family: 'Font Awesome 5 Pro';
+    content: '\f02b';
+    font-size: 0.76rem;
+}
+
+.permalink .tags a:hover {
+    background-color: var(--h-button-color-hover-background);
+    color: var(--h-button-color-hover) !important;
+}
+/* ===================================== 태그 디자인 부분 END ===================================== */
+
+/* ************************************* 코드블럭 꾸미기 ************************************* */
+html {
+    /* 코드 블럭 색깔 */
+    --code-block-color: #282c34;
+    --code-block-mac-color: #393b46;
+}
+/* 코드 블럭 언어 표시 */
+.contents_style span[data-ke-language] {
+    font-size: 15px;
+    content: attr(data-ke-language);
+    position: absolute;
+    z-index: 10;
+    right: 13px;
+    margin-top: 10px;
+    font-family: 'D2Coding', monospace;
+    text-transform: uppercase;
+}
+.contents_style span[data-ke-language] {
+    color: #d1d1d1 !important;
+}
+.contents_style span[data-ke-language$='html']:not([data-ke-language='']),
+.contents_style span[data-ke-language$='pug']:not([data-ke-language='']),
+.contents_style span[data-ke-language$='xml']:not([data-ke-language='']) {
+    color: #ff7f47 !important;
+}
+.contents_style span[data-ke-language$='css']:not([data-ke-language='']) {
+    color: #22b5f9 !important;
+}
+.contents_style span[data-ke-language$='javascript']:not([data-ke-language='']) {
+    color: #ffb700 !important;
+}
+.contents_style span[data-ke-language$='json']:not([data-ke-language='']) {
+    color: #ffee00 !important;
+}
+.contents_style span[data-ke-language$='scss']:not([data-ke-language='']),
+.contents_style span[data-ke-language$='sass']:not([data-ke-language='']) {
+    color: #fb5dad !important;
+}
+.contents_style span[data-ke-language$='java']:not([data-ke-language='']) {
+    color: #ff314e !important;
+}
+.contents_style span[data-ke-language$='kotlin']:not([data-ke-language='']) {
+    color: #f54768 !important;
+}
+.contents_style span[data-ke-language$='php']:not([data-ke-language='']) {
+    color: #6a84ff !important;
+}
+.contents_style span[data-ke-language$='bash']:not([data-ke-language='']) {
+    color: #c37b87 !important;
+}
+.contents_style span[data-ke-language$='sql']:not([data-ke-language='']) {
+    color: #82b9e7 !important;
+}
+.contents_style span[data-ke-language$='python']:not([data-ke-language='']) {
+    color: #96d948 !important;
+}
+.contents_style span[data-ke-language$='markdown']:not([data-ke-language='']) {
+    color: #0dc9af !important;
+}
+.contents_style span[data-ke-language$='emmet']:not([data-ke-language='']) {
+    color: #27d38a !important;
+}
+.contents_style span[data-ke-language$='typescript']:not([data-ke-language='']) {
+    color: #53a2f9 !important;
+}
+.contents_style span[data-ke-language$='yaml']:not([data-ke-language='']) {
+    color: #f97a53 !important;
+}
+
+/*  맥 모양 코드블럭 디자인  */
+.codeBlock_stylish {
+    z-index: 1;
+    position: relative;
+    height: 40px;
+    margin-top: 20px;
+}
+.codeBlock_stylish:after,
+.codeBlock_stylish:before {
+    content: '';
+    position: absolute;
+}
+.codeBlock_stylish:before {
+    background: var(--code-block-mac-color);
+    border-radius: 5px 5px 0 0;
+    height: 40px;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.codeBlock_stylish:after {
+    background: #fc625d;
+    border-radius: 50%;
+    box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
+    height: 12px;
+    left: 15px;
+    top: 15px;
+    width: 12px;
+}
+
+/* 코드블럭 테이블 디자인 */
+.hljs-ln td.hljs-ln-code {
+    padding-left: 20px;
+}
+.hljs-ln-numbers {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: center;
+    color: rgb(170 170 170 / 40%);
+    vertical-align: top;
+    width: 18px;
+}
+.hljs-ln td.hljs-ln-code {
+    padding-left: 18px;
+}
+
+/* 코드블럭 스크롤바 */
+::-webkit-scrollbar-corner {
+    background-color: #0000; /* 가로세로 스크롤바 코너 투명 */
+}
+code::-webkit-scrollbar {
+    /* 가로/세로 스크롤바의 너비 */
+    width: 16px;
+    height: 16px;
+}
+
+code::-webkit-scrollbar-thumb {
+    /* 스크롤바 색모양 */
+    background: linear-gradient(40deg, #ff8a8a 20%, #f771d1 40%, #a18aff 60%, #4cd2ff 80%, #6afc82 100%);
+    border-radius: 10px;
+    border: 6px solid var(--code-block-color);
+}
+
+code::-webkit-scrollbar-track {
+    /* 스크롤바 트랙 */
+    background: transparent;
+}
+
+/* 코드블록 테이블 색깔 꾸미기 */
+table.hljs-ln {
+    table-layout: auto;
+    overflow: hidden;
+    width: 100%;
+    border-collapse: collapse;
+}
+table.hljs-ln tr:hover {
+    background-color: #242530 !important;
+}
+
+/* 코드 블럭 테이블 hover하면 코드 라인 색깔 변경 */
+table.hljs-ln tr:hover .hljs-ln-numbers .hljs-ln-n {
+    color: #cfd2d1;
+}
+
+/* 코드블럭 그림자 */
+/*.contents_style .av-container > pre code,*/
+/*.contents_style > pre code {*/
+/*   box-shadow: 0px 2px 15px rgb(21 32 60 / 40%);*/
+/*}*/
+/* ===================================== 코드블럭 꾸미기 END ===================================== */
+
+/* ************************************* shiki 하이라이터 추가 꾸미기 ************************************* */
+/* line number 조절 */
+.contents_style pre.shiki > code {
+    counter-reset: step;
+    counter-increment: step 0;
+}
+.contents_style pre.shiki > code > .line {
+    display: inline-block;
+}
+.contents_style pre.shiki > code > .line:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 15px;
+    margin-right: 1.2rem;
+    display: inline-block;
+    text-align: right;
+    color: rgba(115, 138, 148, 0.4);
+}
+
+@media screen and (max-width: 575.99px) {
+    .contents_style pre.shiki > code > .line:before {
+        content: unset;
+    }
+}
+
+/* 코드블럭 복사 버튼 */
+.shiki-copy-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+.shiki-copy-wrapper:hover .shiki-copy-button,
+.shiki-copy-button:focus {
+    transform: translateX(0);
+}
+.shiki-copy-button {
+    position: absolute;
+    transform: translateX(calc(100% + 1.125em));
+    top: 1em;
+    right: 1em;
+    width: 2rem;
+    height: 2rem;
+    text-indent: -9999px;
+    color: #fff;
+    border-radius: 0.25rem;
+    border: 1px solid #ffffff22;
+    background-color: #2d2b57;
+    background-color: var(--shiki-theme-background);
+    background-image: url('data:image/svg+xml;utf-8,<svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M6 5C5.73478 5 5.48043 5.10536 5.29289 5.29289C5.10536 5.48043 5 5.73478 5 6V20C5 20.2652 5.10536 20.5196 5.29289 20.7071C5.48043 20.8946 5.73478 21 6 21H18C18.2652 21 18.5196 20.8946 18.7071 20.7071C18.8946 20.5196 19 20.2652 19 20V6C19 5.73478 18.8946 5.48043 18.7071 5.29289C18.5196 5.10536 18.2652 5 18 5H16C15.4477 5 15 4.55228 15 4C15 3.44772 15.4477 3 16 3H18C18.7956 3 19.5587 3.31607 20.1213 3.87868C20.6839 4.44129 21 5.20435 21 6V20C21 20.7957 20.6839 21.5587 20.1213 22.1213C19.5587 22.6839 18.7957 23 18 23H6C5.20435 23 4.44129 22.6839 3.87868 22.1213C3.31607 21.5587 3 20.7957 3 20V6C3 5.20435 3.31607 4.44129 3.87868 3.87868C4.44129 3.31607 5.20435 3 6 3H8C8.55228 3 9 3.44772 9 4C9 4.55228 8.55228 5 8 5H6Z" fill="white"/><path fill-rule="evenodd" clip-rule="evenodd" d="M7 3C7 1.89543 7.89543 1 9 1H15C16.1046 1 17 1.89543 17 3V5C17 6.10457 16.1046 7 15 7H9C7.89543 7 7 6.10457 7 5V3ZM15 3H9V5H15V3Z" fill="white"/></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: background-color 200ms ease, transform 200ms ease-out;
+}
+.shiki-copy-button:hover {
+    border-color: #ffffff44;
+}
+.shiki-copy-button:active {
+    border-color: #ffffff66;
+}
+.shiki-copy-button[data-copied='true'] {
+    text-indent: 0;
+    width: auto;
+    background-image: none;
+}
+@media (prefers-reduced-motion) {
+    .shiki-copy-button {
+        transition: none;
+    }
+}
+.shiki-copy-alert {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+/* ===================================== shiki 하이라이터 추가 꾸미기 END ===================================== */
+
+/* ************************************* underline태그 꾸미기 ************************************* */
+u {
+    text-decoration: underline dotted #ff4b49 !important;
+    text-underline-position: under;
+    text-underline-offset: 2px;
+    font-weight: bold;
+}
+/* ===================================== underline태그 꾸미기 END ===================================== */
+
+/* ************************************* 링크에 아이콘 넣기 ************************************* */
+.contents_style .av-container > p a:hover,
+.contents_style > p a:hover,
+.contents_style .av-container > blockquote[data-ke-style='style2'] a:hover,
+.contents_style > blockquote[data-ke-style='style2'] a:hover,
+.contents_style .av-container > blockquote[data-ke-style='style3'] a:hover,
+.contents_style > blockquote[data-ke-style='style3'] a:hover,
+.contents_style > blockquote.admonition a:hover,
+.contents_style .av-container > ol a:hover,
+.contents_style > ol a:hover,
+.contents_style .av-container > ul a:hover,
+.contents_style > ul a:hover,
+.contents_style .av-container > table a:hover,
+.contents_style > table a:hover {
+    text-decoration: solid underline 2px !important;
+    text-underline-position: under;
+}
+
+.contents_style .av-container > p a:before,
+.contents_style > p a:before,
+.contents_style .av-container > blockquote[data-ke-style='style2'] a:before,
+.contents_style > blockquote[data-ke-style='style2'] a:before,
+.contents_style .av-container > blockquote[data-ke-style='style3'] a:before,
+.contents_style > blockquote[data-ke-style='style3'] a:before,
+.contents_style > blockquote.admonition a:before,
+.contents_style .av-container > ol a:before,
+.contents_style > ol a:before,
+.contents_style .av-container > ul a:before,
+.contents_style > ul a:before,
+.contents_style .av-container > table a:before,
+.contents_style > table a:before {
+    content: '';
+    background-image: url(https://tistory2.daumcdn.net/tistory/4939852/skin/images/chrome-icon.svg);
+    display: inline-block;
+    margin-right: 4px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 15px;
+    height: 15px;
+    font-family: 'Font Awesome 5 Pro';
+    vertical-align: middle;
+}
+article .tt_article_useless_p_margin blockquote a:before {
+    width: 13px;
+    height: 14px;
+    margin-right: 5px;
+}
+/* ===================================== 링크에 아이콘 넣기 END ===================================== */
+
+/* ************************************* a태그 링크 hover 말풍선 ************************************* */
+.contents_style .av-container > p a > span,
+.contents_style > p a > span,
+.contents_style .av-container > blockquote[data-ke-style='style2'] a > span,
+.contents_style > blockquote[data-ke-style='style2'] a > span,
+.contents_style .av-container > blockquote[data-ke-style='style3'] a > span,
+.contents_style > blockquote[data-ke-style='style3'] a > span,
+.contents_style > blockquote.admonition a > span,
+.contents_style .av-container > ol a > span,
+.contents_style > ol a > span,
+.contents_style .av-container > ul a > span,
+.contents_style > ul a > span,
+.contents_style .av-container > table a > span,
+.contents_style > table a > span {
+    position: absolute;
+    white-space: nowrap;
+    padding: 2px 15px 0px 15px;
+    background: #6d50e2;
+    border-radius: 25px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    top: -56px;
+    left: 50%;
+    transform: translate(-40%, -20px);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 20%);
+    z-index: 100;
+}
+
+.contents_style .av-container > p a > span:before,
+.contents_style > p a > span:before,
+.contents_style .av-container > blockquote[data-ke-style='style2'] a > span:before,
+.contents_style > blockquote[data-ke-style='style2'] a > span:before,
+.contents_style .av-container > blockquote[data-ke-style='style3'] a > span:before,
+.contents_style > blockquote[data-ke-style='style3'] a > span:before,
+.contents_style > blockquote.admonition a > span:before,
+.contents_style .av-container > ol a > span:before,
+.contents_style > ol a > span:before,
+.contents_style .av-container > ul a > span:before,
+.contents_style > ul a > span:before,
+.contents_style .av-container > table a > span:before,
+.contents_style > table a > span:before {
+    content: ' ';
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background: #6d50e2;
+    bottom: -6px;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%) rotate(45deg);
+}
+
+.contents_style .av-container > p a:hover > span,
+.contents_style > p a:hover > span,
+.contents_style .av-container > blockquote[data-ke-style='style2'] a:hover > span,
+.contents_style > blockquote[data-ke-style='style2'] a:hover > span,
+.contents_style .av-container > blockquote[data-ke-style='style3'] a:hover > span,
+.contents_style > blockquote[data-ke-style='style3'] a:hover > span,
+.contents_style > blockquote.admonition a:hover > span,
+.contents_style .av-container > ol a:hover > span,
+.contents_style > ol a:hover > span,
+.contents_style .av-container > ul a:hover > span,
+.contents_style > ul a:hover > span,
+.contents_style .av-container > table a:hover > span,
+.contents_style > table a:hover > span {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translate(-50%, 10%);
+}
+/* ===================================== a태그 링크 hover 말풍선 END ===================================== */
+
+/* ************************************* blckquote 안에 코드 블럭 꾸미기 ************************************* */
+.contents_style blockquote pre code {
+    border-radius: 8px;
+}
+.contents_style blockquote pre[data-ke-language]:before {
+    content: none !important;
+}
+/* ===================================== blckquote 안에 코드 블럭  꾸미기 END ===================================== */
+
+/* ************************************* 이미지 마우스 hover 하면 돋보기 아이콘 ************************************* */
+.tt_article_useless_p_margin > figure img:hover {
+    cursor: zoom-in;
+}
+/* ===================================== 이미지 마우스 hover 하면 돋보기 아이콘 END ===================================== */
+
+/* ************************************* parallax 이미지 처리 ************************************* */
+.parallax-background {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: absolute;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-position: top center;
+}
+
+.parallax-overlay {
+    background: url(https://tistory1.daumcdn.net/tistory/4939852/skin/images/overlay.webp);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+/* ===================================== parallax 이미지 처리 END ===================================== */
+
+/* *************************************  ************************************* */
+
+/* =====================================  END ===================================== */
+
+/* *************************************  ************************************* */
+
+/* =====================================  END ===================================== */
+
+/* *************************************  ************************************* */
+
+/* =====================================  END ===================================== */
