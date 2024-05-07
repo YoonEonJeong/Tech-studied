@@ -20,6 +20,7 @@
     "@docusaurus/preset-classic": "3.3.2",
     "@mdx-js/react": "^3.0.0",
     "@types/browserslist": "^4.15.0",
+    "alert": "^6.0.1",
     "clsx": "^2.1.1",
     "color": "^4.2.3",
     "jsmin": "^1.0.1",

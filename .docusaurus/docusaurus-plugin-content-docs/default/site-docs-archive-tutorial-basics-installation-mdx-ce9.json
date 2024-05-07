@@ -1,0 +1,26 @@
+{
+  "id": "Archive/tutorial-basics/installation",
+  "title": "Installation",
+  "description": "How to install Docusaurus locally, and start a Docusaurus site in no time.",
+  "source": "@site/docs/Archive/tutorial-basics/installation.mdx",
+  "sourceDirName": "Archive/tutorial-basics",
+  "slug": "/Archive/tutorial-basics/installation",
+  "permalink": "/docs/Archive/tutorial-basics/installation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Archive/tutorial-basics/installation.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "How to install Docusaurus locally, and start a Docusaurus site in no time."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Client API",
+    "permalink": "/docs/Archive/tutorial-basics/docusaurus-core"
+  },
+  "next": {
+    "title": "Introduction",
+    "permalink": "/docs/"
+  }
+}

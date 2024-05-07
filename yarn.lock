@@ -2712,6 +2712,11 @@ ajv@^8.0.0, ajv@^8.9.0:
     require-from-string "^2.0.2"
     uri-js "^4.4.1"
 
+alert@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/alert/-/alert-6.0.1.tgz#8514c26114426af89db34131d87f8a5641baeba4"
+  integrity sha512-7ZPECX89zu30g+83dDs487Dyw3ZxtZmsyQdUFP+07CNHp+xf/YOJvb3YZx4r5alLyCbftehbHj1Udbpmj9MICw==
+
 algoliasearch-helper@^3.13.3:
   version "3.19.0"
   resolved "https://registry.yarnpkg.com/algoliasearch-helper/-/algoliasearch-helper-3.19.0.tgz#56f9c61f46ecb0a0f7497f127a5d32a94d87e090"

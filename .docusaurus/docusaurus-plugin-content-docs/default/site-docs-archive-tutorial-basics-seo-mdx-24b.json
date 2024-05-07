@@ -1,0 +1,31 @@
+{
+  "id": "Archive/tutorial-basics/seo",
+  "title": "Search engine optimization (SEO)",
+  "description": "How to make your Docusaurus site maximally search-engine-friendly.",
+  "source": "@site/docs/Archive/tutorial-basics/seo.mdx",
+  "sourceDirName": "Archive/tutorial-basics",
+  "slug": "/Archive/tutorial-basics/seo",
+  "permalink": "/docs/Archive/tutorial-basics/seo",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Archive/tutorial-basics/seo.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "How to make your Docusaurus site maximally search-engine-friendly.",
+    "sidebar_label": "SEO",
+    "keywords": [
+      "seo",
+      "positioning"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Search",
+    "permalink": "/docs/Archive/tutorial-basics/search"
+  },
+  "next": {
+    "title": "Static Assets",
+    "permalink": "/docs/Archive/tutorial-basics/static-assets"
+  }
+}

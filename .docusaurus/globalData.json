@@ -1,0 +1,93 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "Archive/tutorial-basics/create-a-document",
+              "path": "/Archive/tutorial-basics/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Archive/tutorial-basics/styling-layout",
+              "path": "/Archive/tutorial-basics/styling-layout",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Archive/tutorial-basics/swizzling",
+              "path": "/Archive/tutorial-basics/swizzling",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Archive/tutorial-basics/typescript-support",
+              "path": "/Archive/tutorial-basics/typescript-support",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Archive/tutorial-basics/using-plugins",
+              "path": "/Archive/tutorial-basics/using-plugins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Archive/tutorial-extras/manage-docs-versions",
+              "path": "/Archive/tutorial-extras/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Archive/tutorial-extras/translate-your-site",
+              "path": "/Archive/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Guide/tutorial-extras/manage-docs-versions",
+              "path": "/Guide/tutorial-extras/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Guide/tutorial-extras/translate-your-site",
+              "path": "/Guide/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras",
+              "path": "/category/tutorial---extras",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---basics",
+              "path": "/category/tutorial---basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras-1",
+              "path": "/category/tutorial---extras-1",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "Archive/tutorial-basics/styling-layout",
+  "title": "Styling and Layout",
+  "description": "A Docusaurus site is a pre-rendered single-page React application. You can style it the way you style React apps.",
+  "source": "@site/docs/Archive/tutorial-basics/styling-layout.mdx",
+  "sourceDirName": "Archive/tutorial-basics",
+  "slug": "/Archive/tutorial-basics/styling-layout",
+  "permalink": "/Archive/tutorial-basics/styling-layout",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Archive/tutorial-basics/styling-layout.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "A Docusaurus site is a pre-rendered single-page React application. You can style it the way you style React apps."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hi!",
+    "permalink": "/Archive/tutorial-basics/create-a-document"
+  },
+  "next": {
+    "title": "Swizzling",
+    "permalink": "/Archive/tutorial-basics/swizzling"
+  }
+}

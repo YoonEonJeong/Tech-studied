@@ -1,0 +1,26 @@
+{
+  "id": "Archive/tutorial-basics/static-assets",
+  "title": "Static Assets",
+  "description": "Static assets are the non-code files that are directly copied to the build output. Learn about how they are handled and what the best practices of using static assets are.",
+  "source": "@site/docs/Archive/tutorial-basics/static-assets.mdx",
+  "sourceDirName": "Archive/tutorial-basics",
+  "slug": "/Archive/tutorial-basics/static-assets",
+  "permalink": "/docs/Archive/tutorial-basics/static-assets",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Archive/tutorial-basics/static-assets.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "Static assets are the non-code files that are directly copied to the build output. Learn about how they are handled and what the best practices of using static assets are."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create a Document",
+    "permalink": "/docs/Archive/tutorial-basics/create-a-document"
+  },
+  "next": {
+    "title": "Styling and Layout",
+    "permalink": "/docs/Archive/tutorial-basics/styling-layout"
+  }
+}

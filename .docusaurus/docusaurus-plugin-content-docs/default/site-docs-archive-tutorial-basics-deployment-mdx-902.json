@@ -1,0 +1,26 @@
+{
+  "id": "Archive/tutorial-basics/deployment",
+  "title": "Deployment",
+  "description": "Deploy your Docusaurus app for production on a range of static site hosting services.",
+  "source": "@site/docs/Archive/tutorial-basics/deployment.mdx",
+  "sourceDirName": "Archive/tutorial-basics",
+  "slug": "/Archive/tutorial-basics/deployment",
+  "permalink": "/docs/Archive/tutorial-basics/deployment",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Archive/tutorial-basics/deployment.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "Deploy your Docusaurus app for production on a range of static site hosting services."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy your site",
+    "permalink": "/docs/Archive/tutorial-basics/deploy-your-site"
+  },
+  "next": {
+    "title": "Client API",
+    "permalink": "/docs/Archive/tutorial-basics/docusaurus-core"
+  }
+}

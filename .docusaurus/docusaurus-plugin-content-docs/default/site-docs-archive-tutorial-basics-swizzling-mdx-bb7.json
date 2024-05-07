@@ -1,0 +1,26 @@
+{
+  "id": "Archive/tutorial-basics/swizzling",
+  "title": "Swizzling",
+  "description": "Customize your site's appearance through creating your own theme components",
+  "source": "@site/docs/Archive/tutorial-basics/swizzling.mdx",
+  "sourceDirName": "Archive/tutorial-basics",
+  "slug": "/Archive/tutorial-basics/swizzling",
+  "permalink": "/Archive/tutorial-basics/swizzling",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Archive/tutorial-basics/swizzling.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "Customize your site's appearance through creating your own theme components"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Styling and Layout",
+    "permalink": "/Archive/tutorial-basics/styling-layout"
+  },
+  "next": {
+    "title": "TypeScript Support",
+    "permalink": "/Archive/tutorial-basics/typescript-support"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "Archive/tutorial-basics/introduction",
+  "title": "Introduction",
+  "description": "Docusaurus was designed from the ground up to be easily installed and used to get your website up and running quickly.",
+  "source": "@site/docs/Archive/tutorial-basics/introduction.mdx",
+  "sourceDirName": "Archive/tutorial-basics",
+  "slug": "/",
+  "permalink": "/docs/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Archive/tutorial-basics/introduction.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "Docusaurus was designed from the ground up to be easily installed and used to get your website up and running quickly.",
+    "slug": "/"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Markdown Features",
+    "permalink": "/docs/Archive/tutorial-basics/markdown-features"
+  },
+  "next": {
+    "title": "Search",
+    "permalink": "/docs/Archive/tutorial-basics/search"
+  }
+}

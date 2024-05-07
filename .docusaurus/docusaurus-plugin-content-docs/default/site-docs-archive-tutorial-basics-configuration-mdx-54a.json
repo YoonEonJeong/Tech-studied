@@ -1,0 +1,26 @@
+{
+  "id": "Archive/tutorial-basics/configuration",
+  "title": "Configuration",
+  "description": "Configuring your site's behavior through docusaurus.config.js and more.",
+  "source": "@site/docs/Archive/tutorial-basics/configuration.mdx",
+  "sourceDirName": "Archive/tutorial-basics",
+  "slug": "/Archive/tutorial-basics/configuration",
+  "permalink": "/docs/Archive/tutorial-basics/configuration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Archive/tutorial-basics/configuration.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "Configuring your site's behavior through docusaurus.config.js and more."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CLI",
+    "permalink": "/docs/Archive/tutorial-basics/cli"
+  },
+  "next": {
+    "title": "Deployment",
+    "permalink": "/docs/Archive/tutorial-basics/deployment"
+  }
+}

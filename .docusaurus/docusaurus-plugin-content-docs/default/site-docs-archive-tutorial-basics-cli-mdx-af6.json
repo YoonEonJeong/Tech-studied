@@ -1,0 +1,26 @@
+{
+  "id": "Archive/tutorial-basics/cli",
+  "title": "CLI",
+  "description": "Docusaurus provides a set of scripts to help you generate, serve, and deploy your website.",
+  "source": "@site/docs/Archive/tutorial-basics/cli.mdx",
+  "sourceDirName": "Archive/tutorial-basics",
+  "slug": "/Archive/tutorial-basics/cli",
+  "permalink": "/docs/Archive/tutorial-basics/cli",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Archive/tutorial-basics/cli.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "Docusaurus provides a set of scripts to help you generate, serve, and deploy your website."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Browser support",
+    "permalink": "/docs/Archive/tutorial-basics/browser-support"
+  },
+  "next": {
+    "title": "Configuration",
+    "permalink": "/docs/Archive/tutorial-basics/configuration"
+  }
+}

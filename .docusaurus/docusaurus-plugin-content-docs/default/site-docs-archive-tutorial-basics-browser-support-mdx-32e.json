@@ -1,0 +1,26 @@
+{
+  "id": "Archive/tutorial-basics/browser-support",
+  "title": "Browser support",
+  "description": "How to keep a reasonable bundle size while ensuring sufficient browser support.",
+  "source": "@site/docs/Archive/tutorial-basics/browser-support.mdx",
+  "sourceDirName": "Archive/tutorial-basics",
+  "slug": "/Archive/tutorial-basics/browser-support",
+  "permalink": "/docs/Archive/tutorial-basics/browser-support",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Archive/tutorial-basics/browser-support.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "description": "How to keep a reasonable bundle size while ensuring sufficient browser support."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Congratulations!",
+    "permalink": "/docs/Archive/tutorial-basics/congratulations"
+  },
+  "next": {
+    "title": "CLI",
+    "permalink": "/docs/Archive/tutorial-basics/cli"
+  }
+}

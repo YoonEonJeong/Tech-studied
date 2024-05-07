@@ -1,0 +1,26 @@
+{
+  "id": "Archive/tutorial-basics/docusaurus-core",
+  "title": "Docusaurus Client API",
+  "description": "Docusaurus provides some APIs on the clients that can be helpful to you when building your site.",
+  "source": "@site/docs/Archive/tutorial-basics/docusaurus-core.mdx",
+  "sourceDirName": "Archive/tutorial-basics",
+  "slug": "/Archive/tutorial-basics/docusaurus-core",
+  "permalink": "/docs/Archive/tutorial-basics/docusaurus-core",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Archive/tutorial-basics/docusaurus-core.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "sidebar_label": "Client API"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deployment",
+    "permalink": "/docs/Archive/tutorial-basics/deployment"
+  },
+  "next": {
+    "title": "Installation",
+    "permalink": "/docs/Archive/tutorial-basics/installation"
+  }
+}
