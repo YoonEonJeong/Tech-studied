@@ -19,5 +19,5 @@
 # yarn-debug.log*
 # yarn-error.log*
 
-/blog/
-/pages/
+# /blog/
+# /pages/
